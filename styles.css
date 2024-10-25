@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url(pictures/mobile_intro_bg\ \(1\).png);
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Equal spacing for all items in header */
+    align-items: center; /* Vertically aligns items in the center */
+}
+
+header img {
+    width: 150px;
+}
+
+.nav {
+    display: flex; /* Display nav items in a row */
+    flex-grow: 1; /* Allow nav to grow and take up space */
+    justify-content: space-around; /* Distribute links equally */
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0; /* Remove margin on the last item */
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li .highlight {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
