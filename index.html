@@ -5,41 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Commons Global Summit 2015</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <img src="pictures/images (2).jpeg" alt="CC Logo">
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#program">Program</a></li>
-                    <li><a href="#join">Join</a></li>
-                    <li><a href="#sponsor">Sponsor</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#campaign" class="highlight">CC Campaign</a></li>
-                </ul>
-            </nav>
+    <div class="home">
+        <div class="background">
+            <div class="header">
+                <div></div>
+            </div>
+    
+            <div class="heading">
+                <h2>"Hello! Sharing world"</h2>
+                <h1>ICC</h1>
+            </div>
         </div>
-    </header>
+        
+        <div class="info">
+            <p>The ICC is the global governing body for cricket. Representing 108 members, the ICC governs and administrates the game and works with our members to grow the sport. The ICC is also responsible for the staging of all ICC Events.</p>
+        </div>
+        
+        <div class="event-date">
+            1-02-2001 Dubai
+        </div>
+        
+        <div class="venue">
+            @ The ICC has its headquarters in Dubai, United Arab Emirates
+        </div>
+    </div>
 
-    <main>
-        <section class="intro">
-            <h1 id="headline"></h1>
-            <h2 id="sub-headline"></h2>
-            <p id="description"></p>
-        </section>
+    <div class="container">
+        <h2>Main Events</h2>
+        
+        <div class="card">
+            <div class="card-icon">🔥</div>
+            <div class="card-content">
+                <div class="card-title">T20 WorldCup</div>
+                <div class="card-description">Listen to the Captains from various countries about their experience.</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">🔥</div>
+            <div class="card-content">
+                <div class="card-title">Test</div>
+                <div class="card-description">Appreciate various Cricket teams that are getting registered in the ICC.</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">🔥</div>
+            <div class="card-content">
+                <div class="card-title">One day</div>
+                <div class="card-description">Have the time to share your thoughts and opinions with experts for each team.</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">🔥</div>
+            <div class="card-content">
+                <div class="card-title">PSL</div>
+                <div class="card-description">Try creating your own work using open source licenses rather than just watching.</div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-icon">🔥</div>
+            <div class="card-content">
+                <div class="card-title">IPL</div>
+                <div class="card-description">Get opportunities to network with CC affiliates around the world, also after the summit.</div>
+            </div>
+        </div>
+        
+        <button class="cta-button">Enjoy the World Cup 2025</button>
+    </div>
 
-        <section class="event-details">
-            <p id="date"></p>
-            <p id="location"></p>
-        </section>
-    </main>
+
+    <section class="speakers-section">
+        <h2>Featured Teams</h2>
+        <div id="all-speakers">
+        </div>
+        <button id="load-more-btn">More</button>        
+    </section>
+
 
     <footer>
-        <p>Follow us on <a href="#">Facebook</a> and <a href="#">Twitter</a></p>
-    </footer>
+        <div class="footer-content">
+          <div class="logodiv">
+            <p>Cricket Teams</p>
+          <ul class="partner-logos">
+            <li><a href="https://www.mozilla.org"><img src="pictures/pak.jepg.avif" alt="Pakistan Logo"></a></li>
+            <li><a href="https://www.google.com"><img src="pictures/india.jpeg" alt="India Logo"></a></li>
+            <li><a href="https://www.naver.com"><img src="pictures/imgEngland.pnh.png" alt="England Logo"></a></li>
+            <li><a href="https://www.daum.net"><img src="pictures/aus.png" alt="Australia Logo"></a></li>
+            <li><a href="https://www.airbnb.com"><img src="pictures/Cricket_Ireland_logo.jpeg" alt="Ireland Logo"></a></li>
+          </ul>
+          </div>
+          
+          <div class="copyright">
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/images (2).jpeg" alt="ICC Logo"></a>
+            <p>ICC<br>Some Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
 
-    <script src="scripts.js"></script>
+      <script src="index.js"></script>
 </body>
 </html>
